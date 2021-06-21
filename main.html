@@ -9,8 +9,14 @@
         @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
         body { 
             background-color: #00081e;
-          
         }
+        @font-face {
+         font-family: "Font Digital";
+         src: url('crackman.ttf');
+         }
+         .digital {
+         font-family: "Font Digital";
+         }
         h1{
             color: #01fe87;
             text-align: center;
@@ -60,8 +66,8 @@
         </style>
 
 </head>
-<body >
-    <h1><b>BASMI SEMUA VIRUS</b></h1>
+<body>
+    <h1 class="digital"><b>BASMI SEMUA VIRUS</b></h1>
     <audio src="assets/backsound1.mp3" autoplay>
     </audio>
     <div class="container"> 
@@ -73,11 +79,10 @@
     <br>
     <br>
     <div class="container"> 
-        <a href="loading.html"><button class="btn_1">Classic!</button></a>
+        <a href="loading.html"><button class="btn_1"><p class="digital">Classic!</p></button></a>
         <br>
         <br>
-        <a href="loading2.html"><button class="btn_1">Challange!</button></a>
-        
+        <a href="loading2.html"><button class="btn_1"><p class="digital">Challange!</p></button></a>
     </div>
 
 </body>
